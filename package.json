@@ -1,0 +1,15 @@
+{
+  "name": "object-pipe",
+  "version": "1.0.0",
+  "description": "Use pipeline with any Object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": "git@github.com:super-javascript/object-pipe.git",
+  "author": "Nigelk <kozlown@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.9.1"
+  }
+}
