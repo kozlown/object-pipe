@@ -34,6 +34,7 @@ require('object-pipe')()
 
 function double () {
   return this + this
+  // 'this' is referring to the object calling the pipe function
 }
 
 console.info((5).do(double)) // 10
